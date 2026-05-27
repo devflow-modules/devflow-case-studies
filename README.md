@@ -1,198 +1,41 @@
 # DevFlow Labs Case Studies
 
-Public technical case studies for **DevFlow Labs**, a product lab focused on SaaS, automation, AI-assisted workflows and business tools.
+Public technical case studies from **DevFlow Labs**, a product engineering ecosystem focused on SaaS, automation, AI-assisted workflows, operational dashboards and reusable product architecture.
 
-This repository documents product reasoning, architecture, technical decisions and roadmap behind DevFlow Labs initiatives without exposing private implementation details.
+This repository works as the public portfolio layer for products and systems that may have private production code, protected business logic or internal deployment details.
 
 ---
 
-## Purpose
+## What is DevFlow Labs?
 
-The goal of this repository is to present DevFlow Labs as a real product engineering ecosystem, not only a collection of code repositories.
+**DevFlow Labs** is a product lab created by **Gustavo Marques de Lima** to design, build and document real-world digital products with a strong focus on:
 
-It serves as a public portfolio layer for:
-
-- SaaS product architecture
-- Fullstack engineering decisions
+- SaaS architecture
+- Fullstack product engineering
 - AI-assisted workflows
 - Automation platforms
-- Multi-tenant product design
-- Operational dashboards
-- Privacy-first and local-first product concepts
-- Technical documentation as portfolio
+- Multi-tenant systems
+- Privacy-first and local-first design
+- Billing, usage tracking and operational dashboards
+- Technical documentation as product strategy
 
 ---
 
-## Product Ecosystem
+## Case Studies
 
-### Investiga+
-SaaS platform for CNPJ intelligence, company data lookup, secure authentication, cached searches, history and dashboard analytics.
-
-**Repository:** https://github.com/devflow-modules/investiga-mais  
-**Live:** https://investigamais.com
-
-**Highlights:**
-- Secure authentication with JWT and HttpOnly Cookies
-- External API integration
-- Prisma ORM and PostgreSQL
-- User history and cache strategy
-- Jest tests
-- CI/CD-ready structure
+| Case | Status | Type | Main Stack | What this demonstrates |
+|---|---|---|---|---|
+| [Investiga+](case-studies/investiga-plus) | Public product / production-oriented | SaaS | Next.js, React, Node.js, Express, Prisma, PostgreSQL, Jest | Secure auth, CNPJ intelligence, API integration, caching, history and SaaS foundation |
+| [ApplyFlow](case-studies/applyflow) | Public case study | Local-first productivity product | Chrome Extension concept, Next.js, TypeScript, local storage, OpenAI optional | Privacy-first workflows, application tracking, candidate productivity and AI-assisted coaching |
+| [WhatsApp Platform](case-studies/whatsapp-platform) | Private product / public case | Multi-tenant SaaS | Next.js, TypeScript, Prisma, PostgreSQL, WhatsApp Cloud API, Stripe, OpenAI | Multi-tenant architecture, webhooks, AI replies, billing, inbox operations and operational metrics |
+| [DevFlow Financeiro](case-studies/financeiro) | Private product / public case | Financial SaaS | Next.js, TypeScript, Prisma, PostgreSQL, Tailwind CSS | Product score engine, dashboard UX, business rules, insights and monthly financial routines |
+| [Career Suite / ATS Tools](case-studies/career-suite) | Public case study | AI-assisted career tooling | Next.js, TypeScript, OpenAI API, local-first analysis | Resume matching, job analysis, ATS-style scoring, interview preparation and privacy-aware AI |
+| [Vibe Intel](https://github.com/devflow-modules/vibe-intel) | Experimental lab | AI/agents research | TypeScript, Node.js, Fastify, PNPM, Turborepo | Experimental AI agents, operational intelligence, modular packages and release automation |
+| [JWT Auth](https://github.com/devflow-modules/jwt-auth) | Public module | Reusable backend module | Node.js, Express, JWT, TypeScript | Reusable authentication, middleware design, access control and package-oriented engineering |
 
 ---
 
-### ApplyFlow
-Local-first workflow assistant for job applications, focused on candidate productivity, job tracking, reusable answers and privacy-first workflow design.
-
-**Case Study:** https://github.com/devflow-modules/applyflow-case-study
-
-**Highlights:**
-- Browser extension architecture concept
-- Next.js dashboard
-- Local-first data flow
-- JSON export/import
-- Optional AI coaching
-- Human-in-the-loop workflow
-
----
-
-### WhatsApp Platform
-Multi-tenant WhatsApp Cloud API platform for customer support, operational inbox, automation, AI replies, metrics, activation control and billing.
-
-**Highlights:**
-- Multi-tenant architecture
-- Role-based access control
-- Meta WhatsApp Cloud API integration
-- Event processing
-- AI-assisted replies
-- Operational dashboards
-
----
-
-### DevFlow Financeiro
-Financial management product focused on health score, insights, monthly routine checklist, categorization and dashboard-based decision support.
-
-**Highlights:**
-- Product score engine
-- Actionable insights
-- Monthly operational routine
-- Dashboard-first UX
-- Business rules layer
-- SaaS-ready architecture
-
----
-
-### Career Suite / ATS Tools
-Career workflow tools for resume analysis, job matching, interview preparation and application support.
-
-**Highlights:**
-- Resume and job description analysis
-- ATS-style scoring
-- Optional AI coaching
-- Local-first analysis concepts
-- Technical case study documentation
-
----
-
-## Architecture Themes
-
-### Product-first engineering
-Every product starts from a real workflow problem and is shaped around user value, operational clarity and future monetization potential.
-
-### Modular fullstack architecture
-Projects are structured around clear boundaries between frontend, backend, database, services, integrations and business logic.
-
-### SaaS-ready foundations
-Authentication, permissions, dashboards, usage limits and deployment are treated as core architecture concerns.
-
-### AI as an enhancer
-AI is used to improve productivity, analysis and decision support, while core workflows remain understandable and maintainable.
-
-### Documentation as product
-Case studies, READMEs, architecture notes and roadmaps are part of the product strategy and portfolio positioning.
-
----
-
-## Core Stack
-
-### Frontend
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Chakra UI
-- ShadCN UI
-- Framer Motion
-
-### Backend
-- Node.js
-- Express
-- Prisma ORM
-- PostgreSQL
-- REST APIs
-- JWT authentication
-
-### Infrastructure
-- Vercel
-- Railway
-- Render
-- Supabase
-- Docker
-- GitHub Actions
-
-### AI and Integrations
-- OpenAI API
-- Meta WhatsApp Cloud API
-- Stripe
-- ReceitaWS
-- External SaaS APIs
-
-### Testing and Quality
-- Jest
-- Playwright
-- Testing Library
-- Pytest
-- CI/CD validation
-
----
-
-## Portfolio Value
-
-This repository helps demonstrate:
-
-- Ability to design products from zero
-- Strong fullstack architecture skills
-- Business-oriented engineering mindset
-- SaaS and automation experience
-- AI integration in real workflows
-- Product documentation and technical storytelling
-- Ownership over roadmap, implementation and delivery
-
----
-
-## Suggested Reading Order
-
-1. **Investiga+** for a production-oriented SaaS case
-2. **ApplyFlow** for local-first and privacy-first product design
-3. **WhatsApp Platform** for multi-tenant architecture and integrations
-4. **DevFlow Financeiro** for product scoring and dashboard UX
-5. **Career Suite** for AI-assisted career workflows
-
----
-
-## Roadmap
-
-- Add individual case study folders for each product
-- Add architecture diagrams
-- Add screenshots and product flows
-- Add decision records for key engineering choices
-- Add deployment and observability notes
-- Add public demo references where available
-- Add bilingual versions of the most important case studies
-
----
-
-## Planned Repository Structure
+## Repository Map
 
 ```text
 case-studies/
@@ -203,19 +46,109 @@ case-studies/
 └── career-suite/
 
 docs/
-├── architecture/
-├── product-decisions/
-├── roadmap/
-└── demos/
+└── architecture/
+    ├── ai-workflows.md
+    ├── auth-and-rbac.md
+    ├── billing-and-usage.md
+    ├── local-first-products.md
+    └── multi-tenant-saas.md
 ```
 
 ---
 
-## Status
+## Architecture Notes
 
-This repository is an evolving public portfolio layer for DevFlow Labs.
+| Document | Topic |
+|---|---|
+| Multi-Tenant SaaS Architecture | Tenant isolation, user roles, modular product boundaries and scalable SaaS foundations |
+| Authentication and RBAC | JWT, protected routes, role-based access and secure session handling |
+| AI Workflows | Human-in-the-loop AI, optional AI layers, structured output and automation safety |
+| Billing and Usage | Plan limits, usage aggregation, overage logic and Stripe-based SaaS monetization |
+| Local-First Products | Browser/local storage, privacy-first architecture, JSON handoff and user-owned data |
 
-Some products are private or partially private by design. This repository exists to communicate the engineering decisions, product thinking and business context behind them while protecting implementation details.
+---
+
+## Product Engineering Principles
+
+### Product-first architecture
+
+Each product starts from a real workflow problem and is shaped around measurable user value, operational clarity and future monetization potential.
+
+### Modular fullstack engineering
+
+Products are structured around clear boundaries between UI, domain logic, API layer, database, external integrations and operational concerns.
+
+### AI as an enhancer
+
+AI is used to accelerate analysis, support decision-making and improve productivity. Core workflows remain understandable, testable and maintainable.
+
+### SaaS-ready foundations
+
+Authentication, permissions, usage limits, billing, dashboards, observability and deployment concerns are treated as architecture decisions from the beginning.
+
+### Documentation as product
+
+READMEs, case studies, ADRs, runbooks and roadmap notes are part of the product strategy, not an afterthought.
+
+---
+
+## Public Repositories
+
+| Repository | Purpose |
+|---|---|
+| devflow-modules/investiga-mais | Public SaaS product and technical case |
+| devflow-modules/jwt-auth | Reusable authentication module |
+| devflow-modules/applyflow-case-study | ApplyFlow public case study |
+| devflow-modules/devflow-case-studies | Central public case study hub |
+| devflow-modules/vibe-intel | Experimental AI and operational intelligence lab |
+
+---
+
+## Private Production Monorepo
+
+The production-oriented DevFlow Labs monorepo is private by design:
+
+`devflow-modules/devflow`
+
+It is used as the canonical internal source for apps, packages, architecture, product work, deployment strategy and operational documentation.
+
+Public repositories in this organization expose selected products, reusable modules and technical case studies without exposing sensitive business logic or private implementation details.
+
+---
+
+## Portfolio Value
+
+This repository demonstrates:
+
+- Ability to design products from zero
+- Fullstack architecture maturity
+- SaaS and product engineering mindset
+- AI integration in real workflows
+- Multi-tenant and operational systems thinking
+- Technical storytelling and documentation
+- Ownership over product, roadmap and engineering delivery
+
+---
+
+## Suggested Reading Order
+
+1. WhatsApp Platform — strongest SaaS architecture case
+2. Investiga+ — public SaaS and fullstack implementation
+3. ApplyFlow — local-first and privacy-first workflow product
+4. Career Suite — AI-assisted career tooling
+5. DevFlow Financeiro — dashboard, score engine and product insights
+
+---
+
+## Roadmap
+
+- Add screenshots and GIFs for each product
+- Add architecture diagrams
+- Add decision records for key trade-offs
+- Add demo videos
+- Add bilingual versions of priority cases
+- Add public demo data where applicable
+- Add more detailed product metrics and roadmap notes
 
 ---
 
