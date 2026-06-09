@@ -6,6 +6,15 @@ This case study documents the product reasoning, architecture and technical deci
 
 ---
 
+## Case Study Documents
+
+| Document | Purpose |
+|---|---|
+| [Architecture](architecture.md) | Frontend/backend boundaries, CNPJ lookup flow, cache strategy and testing approach |
+| [Security Decisions](security-decisions.md) | JWT, HttpOnly Cookies, protected routes, user-scoped data and external API safety |
+
+---
+
 ## Product Context
 
 Brazilian businesses often need quick access to company data for validation, analysis, internal processes, prospecting and operational decisions.
