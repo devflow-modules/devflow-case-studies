@@ -6,6 +6,16 @@ This case study documents the product vision, architecture and engineering decis
 
 ---
 
+## Case Study Documents
+
+| Document | Purpose |
+|---|---|
+| [Architecture](architecture.md) | Extension/dashboard boundaries, local-first model, shared domain logic and optional AI layer |
+| [Privacy Decisions](privacy-decisions.md) | Local-first data, optional AI, no blind submission and data portability |
+| [Recruiter Notes](recruiter-notes.md) | What recruiters and interviewers should evaluate in this case |
+
+---
+
 ## Product Context
 
 Applying to jobs is repetitive, hard to track and often poorly organized. Candidates commonly use spreadsheets, browser history, notes and manual reminders to manage applications.
