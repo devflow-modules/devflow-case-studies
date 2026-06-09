@@ -6,6 +6,18 @@ This repository works as the public portfolio layer for products and systems tha
 
 ---
 
+## Priority Case Studies
+
+These are the best case studies to review first. The three priority cases are available in English and Portuguese.
+
+| Case | English | Portuguese | Type | What this demonstrates |
+|---|---|---|---|---|
+| WhatsApp Platform | [EN](case-studies/whatsapp-platform) | [PT-BR](case-studies/whatsapp-platform/README.pt-BR.md) | Multi-tenant SaaS | WhatsApp operations, webhooks, AI replies, billing, metrics and SaaS architecture |
+| Investiga+ | [EN](case-studies/investiga-plus) | [PT-BR](case-studies/investiga-plus/README.pt-BR.md) | Production SaaS | Secure auth, CNPJ intelligence, API integration, caching, history and SaaS foundation |
+| ApplyFlow | [EN](case-studies/applyflow) | [PT-BR](case-studies/applyflow/README.pt-BR.md) | Local-first product | Privacy-first workflows, application tracking, candidate productivity and AI-assisted coaching |
+
+---
+
 ## What is DevFlow Labs?
 
 **DevFlow Labs** is a product lab created by **Gustavo Marques de Lima** to design, build and document real-world digital products with a strong focus on:
@@ -21,7 +33,7 @@ This repository works as the public portfolio layer for products and systems tha
 
 ---
 
-## Case Studies
+## All Case Studies
 
 | Case | Status | Type | Main Stack | What this demonstrates |
 |---|---|---|---|---|
@@ -46,12 +58,8 @@ case-studies/
 └── career-suite/
 
 docs/
-└── architecture/
-    ├── ai-workflows.md
-    ├── auth-and-rbac.md
-    ├── billing-and-usage.md
-    ├── local-first-products.md
-    └── multi-tenant-saas.md
+├── architecture/
+└── linkedin/
 ```
 
 ---
@@ -146,7 +154,7 @@ This repository demonstrates:
 - Add architecture diagrams
 - Add decision records for key trade-offs
 - Add demo videos
-- Add bilingual versions of priority cases
+- Expand bilingual versions beyond priority cases
 - Add public demo data where applicable
 - Add more detailed product metrics and roadmap notes
 
