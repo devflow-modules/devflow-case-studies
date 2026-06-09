@@ -1,5 +1,7 @@
 # ApplyFlow Case Study
 
+**Portuguese version:** [README.pt-BR.md](README.pt-BR.md)
+
 ApplyFlow is a local-first job application workflow assistant focused on candidate productivity, application tracking, reusable answers, job intelligence and privacy-first workflow design.
 
 This case study documents the product vision, architecture and engineering decisions behind ApplyFlow.
