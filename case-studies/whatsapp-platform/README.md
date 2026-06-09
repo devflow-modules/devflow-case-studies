@@ -6,6 +6,18 @@ This case study documents the architecture and product decisions behind one of t
 
 ---
 
+## Case Study Documents
+
+| Document | Purpose |
+|---|---|
+| [Architecture](architecture.md) | System boundaries, webhook flow, tenant model, AI layer and billing architecture |
+| [Product Roadmap](product-roadmap.md) | MVP scope, product phases, monetization and enterprise-readiness path |
+| [Security Decisions](security-decisions.md) | Authentication, RBAC, tenant isolation, webhook security, secrets and AI safety |
+| [Business Context](business-context.md) | Market problem, target customers, value proposition and monetization strategy |
+| [Recruiter Notes](recruiter-notes.md) | What recruiters and interviewers should evaluate in this case |
+
+---
+
 ## Product Context
 
 Many businesses depend on WhatsApp as their main communication channel but lack structure, team visibility, automation, metrics and controlled access.
