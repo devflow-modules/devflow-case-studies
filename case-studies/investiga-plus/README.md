@@ -1,5 +1,7 @@
 # Investiga+ Case Study
 
+**Portuguese version:** [README.pt-BR.md](README.pt-BR.md)
+
 **Investiga+** is a production-oriented SaaS platform for CNPJ intelligence, company data lookup, secure authentication, cached searches, user history and dashboard analytics.
 
 This case study documents the product reasoning, architecture and technical decisions behind Investiga+ as part of the DevFlow Labs ecosystem.
