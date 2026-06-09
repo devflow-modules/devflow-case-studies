@@ -1,5 +1,7 @@
 # WhatsApp Platform Case Study
 
+**Portuguese version:** [README.pt-BR.md](README.pt-BR.md)
+
 WhatsApp Platform is a multi-tenant SaaS product for customer support, WhatsApp Cloud API operations, automation, AI-assisted replies, operational metrics, activation control and billing.
 
 This case study documents the architecture and product decisions behind one of the strongest DevFlow Labs SaaS initiatives.
