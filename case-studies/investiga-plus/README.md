@@ -12,6 +12,9 @@ This case study documents the product reasoning, architecture and technical deci
 |---|---|
 | [Architecture](architecture.md) | Frontend/backend boundaries, CNPJ lookup flow, cache strategy and testing approach |
 | [Security Decisions](security-decisions.md) | JWT, HttpOnly Cookies, protected routes, user-scoped data and external API safety |
+| [Product Roadmap](product-roadmap.md) | Product phases, SaaS evolution, monetization and company intelligence roadmap |
+| [Business Context](business-context.md) | Market problem, target users, value proposition and SaaS potential |
+| [Recruiter Notes](recruiter-notes.md) | What recruiters and interviewers should evaluate in this case |
 
 ---
 
